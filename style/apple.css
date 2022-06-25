@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 64, 68);
+    padding-bottom: 50;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    padding: 1% 10%;
+    text-transform: capitalize;
+    color: rgb(179, 179, 179);
+    background-color: black;
+}
+.nav li:hover {
+    cursor: pointer;
+    color: white;
+}
+.p{
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+.qator1{
+    display: flex;
+    width: 100%;
+}
+.qator1 .chap{
+    text-align: center;
+    background: linear-gradient(to top, rgb(69, 196, 255), rgb(0, 110, 255));
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qator1 .chap:hover{
+    cursor: pointer;
+}
+.qator1 .chap h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+.qator1 .chap img{
+    padding-top: 50px;
+}
+.qator1 .chap h2{
+    text-transform: capitalize;
+}
+.qator1 .chap p{
+    font-size: 20px;
+}
+.qator1 .ong{
+    text-align: center;
+    background: linear-gradient(to top, rgb(133, 105, 255), rgb(94, 49, 255));
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+}
+.qator1 .ong:hover{
+    cursor: pointer;
+}
+.qator1 .ong h1{
+    font-size: 50px;
+}
+.qator1 .ong img{
+    padding-top: 50px;
+}
+
+
+.qator2{
+    display: flex;
+    justify-content: space-around;
+}
+.qator2 .chap{
+    text-align: center;
+    background: linear-gradient(to top, rgb(55, 122, 77), rgb(0, 104, 52));
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qator2 .chap:hover{
+    cursor: pointer;
+}
+.qator2 .chap h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+.qator2 .chap img{
+    padding-top: 50px;
+}
+.qator2 .chap h2{
+    text-transform: capitalize;
+}
+.qator2 .chap p{
+    font-size: 20px;
+}
+.qator2 .ong{
+    text-align: center;
+    background: linear-gradient(to top, rgb(153, 168, 172), rgb(87, 177, 250));
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+}
+.qator2 .ong:hover{
+    cursor: pointer;
+}
+.qator2 .ong h1{
+    font-size: 50px;
+}
+
+
+.qator3{
+    text-align: center;
+    background: linear-gradient(to top, rgb(80, 16, 184), rgb(29, 9, 102));
+    margin-top: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+.qator3 h1{
+    font-size: 60px;
+}
+
+
+
+.qator4{
+    display: flex;
+}
+.qator4 .chap{
+    text-align: center;
+    background: linear-gradient(to top, rgb(69, 196, 255), rgb(0, 110, 255));
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qator4 .chap:hover{
+    cursor: pointer;
+}
+.qator4 .chap h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+.qator4 .chap .app{
+    padding-top: 50px;
+    position: relative;
+    left: 110px;
+    top: 33px;
+    /* margin: 0 auto; */
+}
+.qator4 .chap .bolga{
+    position: relative;
+    top: 35px;
+    left: -100px;
+}
+.qator4 .chap h2{
+    text-transform: capitalize;
+}
+.qator4 .chap p{
+    font-size: 20px;
+}
+.qator4 .ong{
+    text-align: center;
+    background: linear-gradient(to top, rgb(133, 105, 255), rgb(94, 49, 255));
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+}
+.qator4 .ong:hover{
+    cursor: pointer;
+}
+.qator4 .ong h1{
+    font-size: 50px;
+}
+.qator4 .ong img{
+    padding-top: 80px;
+}
+
+
+.qator5{
+    display: flex;
+}
+.qator5 .chap{
+    text-align: center;
+    background: linear-gradient(to top, rgb(27, 28, 29), rgb(6, 12, 20));
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qator5 .chap:hover{
+    cursor: pointer;
+}
+.qator5 .chap h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+.qator5 .chap img{
+    padding-top: 50px;
+}
+.qator5 .chap h2{
+    text-transform: capitalize;
+}
+.qator5 .chap p{
+    font-size: 20px;
+}
+.qator5 .ong{
+    text-align: center;
+    background: linear-gradient(to top, rgb(27, 28, 29), rgb(6, 12, 20));
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+}
+.qator5 .ong:hover{
+    cursor: pointer;
+}
+.qator5 .ong h1{
+    font-size: 50px;
+}
+.qator5 .ong img{
+    padding-top: 50px;
+}
+
+
+.qator6{
+    display: flex;
+}
+.qator6 .chap{
+    text-align: center;
+    background: linear-gradient(to top, rgb(27, 28, 29), rgb(6, 12, 20));
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qator6 .chap:hover{
+    cursor: pointer;
+}
+.qator6 .chap h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+}
+.qator6 .chap img{
+    padding-top: 50px;
+}
+.qator6 .chap h2{
+    text-transform: capitalize;
+}
+.qator6 .chap p{
+    font-size: 20px;
+}
+.qator6 .ong{
+    text-align: center;
+    background: linear-gradient(to top, rgb(27, 28, 29), rgb(6, 12, 20));
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+    width: 48.5%;
+    color: white;
+    padding-top: 70px;
+}
+.qator6 .ong:hover{
+    cursor: pointer;
+}
+.qator6 .ong h1{
+    font-size: 50px;
+}
+.qator6 .ong img{
+    padding-top: 80px;
+}
+
+
+.qator7{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(40, 3, 83);
+    background:url(../img/10537568.png), linear-gradient(45deg,rgba(27, 28, 29),rgba(6, 12, 20));
+    background-position: center;
+    background-size: 120%;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.qator7 h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.qator7 p{
+    font-size: 20px;
+}
+
+
+.qator8{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to top, rgb(78, 0, 102), rgb(66, 1, 128));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.past h2{
+    width: 76%;
+    text-align: center;
+    padding-left: 12%;
+}
+.qator9{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px 70px;
+    color: gray;
+    /* background-color: rgb(34, 34, 34); */
+}
+.qator9 .ikon{
+    font-size: 50px;
+    color: rgb(91, 5, 126);
+    padding-bottom: 20px;
+}
+
+
+
+.qator10{
+    padding: 30px 70px;
+    display: flex;
+    color: gray;
+    justify-content: space-evenly;
+    /* background-color: rgb(34, 34, 34); */
+
+}
+.qator10 .ustun a{
+    color: gray;
+    font-size: 12px;
+}
+
+.tugma{
+    display: flex;
+    margin-left: 75.5%;
+    border: solid 1px blue;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 140px;
+    
+}
+.tugma h5{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px 5px;
+    color: blue;
+}
+.tugma h5:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
